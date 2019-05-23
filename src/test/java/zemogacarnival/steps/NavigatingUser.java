@@ -27,8 +27,8 @@ public class NavigatingUser {
     }
 
     @Step
-    public void navigatesToCategoryAndSearch(Category name) {
-        categoryNavigationBar.selectSail(name);
+    public void navigatesToCategoryAndSearch() {
+        categoryNavigationBar.selectSail();
     }
 
     public void seeAndFilterByPrice() {
@@ -36,5 +36,13 @@ public class NavigatingUser {
     }
 
     public void shouldAbleSeeTheGridByPrice() {
+    }
+
+    public void selectSailFrom() {
+        categoryNavigationBar.selectFrom();
+    }
+
+    public void dates() {
+        categoryNavigationBar.date();
     }
 }
