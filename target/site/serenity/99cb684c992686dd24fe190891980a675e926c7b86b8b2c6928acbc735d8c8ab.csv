@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"When user open search option","Shouldbe able to filter by price","SUCCESS","2019-05-23T09:58:26.876-05:00[America/Bogota]","0.0","9.85"
+"When user open search option","Should able to sort by price and sees default value will be cheapest first","SUCCESS","2019-05-23T09:58:36.811-05:00[America/Bogota]","0.0","7.4"

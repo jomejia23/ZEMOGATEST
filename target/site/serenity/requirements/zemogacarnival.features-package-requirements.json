@@ -1,0 +1,1 @@
+[{"displayName":"Navigation","name":"Navigation","id":"Navigation","type":"feature","narrative":{"name":"Narrative","text":""},"children":[{"displayName":"When user open search option","name":"When user open search option","id":"When user open search option","type":"story","narrative":{"name":"Narrative","text":""},"parent":"Navigation"}]}]

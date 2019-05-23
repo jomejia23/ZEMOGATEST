@@ -1,0 +1,9 @@
+zemogacarnival\features\navigation\WhenUserOpenSearchOption.class
+zemogacarnival\ui\FilterCategoryPrice.class
+zemogacarnival\steps\NavigatingUser.class
+zemogacarnival\ui\CarnivalHomePage.class
+zemogacarnival\model\Category.class
+zemogacarnival\ui\CurrentPage.class
+zemogacarnival\ui\CategoryNavigationBar.class
+zemogacarnival\ui\GoogleSearchPage.class
+zemogacarnival\ui\SearchBox.class
