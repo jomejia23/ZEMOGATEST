@@ -23,11 +23,13 @@ public class WhenUserOpenSearchOption {
     public void ShouldBeableToCruisesCategory(){
         //Given
         user.isOnTheHomePage();
+        browser.manage().window().maximize();
 
         //When
         user.navigatesToCategoryAndSearch();
         user.selectSailFrom();
-        user.dates();
+        user.selectDates();
+        user.selectDuration();
 
         //Then
         user.shouldSeeTheResouldbyAllCruises("Bahamas");
