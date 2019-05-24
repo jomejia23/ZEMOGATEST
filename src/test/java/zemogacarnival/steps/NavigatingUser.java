@@ -1,7 +1,6 @@
 package zemogacarnival.steps;
 
 import net.thucydides.core.annotations.Step;
-import zemogacarnival.model.Category;
 import zemogacarnival.ui.CarnivalHomePage;
 import zemogacarnival.ui.CategoryNavigationBar;
 import zemogacarnival.ui.CurrentPage;
@@ -27,14 +26,32 @@ public class NavigatingUser {
     }
 
     @Step
-    public void navigatesToCategoryAndSearch(Category name) {
-        categoryNavigationBar.selectSail(name);
+    public void navigatesToCategoryAndSearch() {
+        categoryNavigationBar.selectSail();
     }
 
+    public void selectDates() {
+        categoryNavigationBar.setDate();
+    }
+
+    @Step
+    public void selectSailFrom() {
+        categoryNavigationBar.setFrom();
+    }
+
+    @Step
     public void seeAndFilterByPrice() {
         filterCategoryPrice.selectPice();
     }
 
+    @Step
+    public void selectDuration(){
+        categoryNavigationBar.setDuration();
+    }
+
     public void shouldAbleSeeTheGridByPrice() {
     }
+
+
+
 }
